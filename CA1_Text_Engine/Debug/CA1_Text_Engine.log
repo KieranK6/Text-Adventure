@@ -1,0 +1,9 @@
+﻿  Main.cpp
+c:\users\ciara_000\desktop\ca1_text_engine\ca1_text_engine\room.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\ciara_000\desktop\ca1_text_engine\ca1_text_engine\room.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\ciara_000\desktop\ca1_text_engine\ca1_text_engine\interactablelist.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\ciara_000\desktop\ca1_text_engine\ca1_text_engine\interactablelist.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\ciara_000\desktop\ca1_text_engine\ca1_text_engine\room.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\ciara_000\desktop\ca1_text_engine\ca1_text_engine\roomgridcreator.h(22): warning C4091: 'static ': ignored on left of 'RoomGridCreator' when no variable is declared
+  CA1_Text_Engine.vcxproj -> C:\Users\ciara_000\Desktop\CA1_Text_Engine\Debug\CA1_Text_Engine.exe
+  CA1_Text_Engine.vcxproj -> C:\Users\ciara_000\Desktop\CA1_Text_Engine\Debug\CA1_Text_Engine.pdb (Partial PDB)

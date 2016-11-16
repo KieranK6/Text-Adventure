@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TextEngine">
+      <UniqueIdentifier>{eee685ff-e573-4b74-93e2-be6d12e7543b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextEngine\Header Files">
+      <UniqueIdentifier>{9470aafd-de33-4527-9c9e-2ce5abf1fad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextEngine\Source Files">
+      <UniqueIdentifier>{7355faa6-447a-477f-9e68-12aeaa6f8d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextEngine\GameObjects">
+      <UniqueIdentifier>{1fc2a7a6-d5ef-4d7d-a53b-37125a31c853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextEngine\GameObjects\ItemInteractables">
+      <UniqueIdentifier>{1a3ca6a1-12aa-40e3-be87-5884b6021bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextEngine\GameObjects\StaticInteractables">
+      <UniqueIdentifier>{c07b79fd-86e0-4dd2-8a76-08b47f75ec2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>TextEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interactable.cpp">
+      <Filter>TextEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractableList.cpp">
+      <Filter>TextEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>TextEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>TextEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionParser.cpp">
+      <Filter>TextEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>TextEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticInteractable.cpp">
+      <Filter>TextEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemInteractable.cpp">
+      <Filter>TextEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomGrid.cpp">
+      <Filter>TextEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomGridCreator.cpp">
+      <Filter>TextEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>TextEngine\GameObjects\StaticInteractables</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>TextEngine\GameObjects\ItemInteractables</Filter>
+    </ClCompile>
+    <ClCompile Include="Note.cpp">
+      <Filter>TextEngine\GameObjects\ItemInteractables</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>TextEngine\GameObjects\StaticInteractables</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractableList.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interactable.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericMap.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionParser.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemInteractable.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticInteractable.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomGrid.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomGridCreator.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>TextEngine\GameObjects\ItemInteractables</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>TextEngine\GameObjects\StaticInteractables</Filter>
+    </ClInclude>
+    <ClInclude Include="Note.h">
+      <Filter>TextEngine\GameObjects\ItemInteractables</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>TextEngine\GameObjects\StaticInteractables</Filter>
+    </ClInclude>
+    <ClInclude Include="StringPair.h">
+      <Filter>TextEngine\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

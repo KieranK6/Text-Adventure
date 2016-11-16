@@ -1,0 +1,12 @@
+﻿  GameManager.cpp
+c:\users\ciara_000\desktop\ca1_text_engine\ca1_text_engine\ca1_text_engine\interactablelist.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\ciara_000\desktop\ca1_text_engine\ca1_text_engine\ca1_text_engine\interactablelist.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\ciara_000\desktop\ca1_text_engine\ca1_text_engine\ca1_text_engine\room.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\ciara_000\desktop\ca1_text_engine\ca1_text_engine\ca1_text_engine\room.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\ciara_000\desktop\ca1_text_engine\ca1_text_engine\ca1_text_engine\room.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Main.cpp
+  ActionParser.cpp
+  CA1_Text_Engine.vcxproj -> C:\Users\ciara_000\Desktop\CA1_Text_Engine\CA1_Text_Engine\x64\Debug\CA1_Text_Engine.exe
+  CA1_Text_Engine.vcxproj -> C:\Users\ciara_000\Desktop\CA1_Text_Engine\CA1_Text_Engine\x64\Debug\CA1_Text_Engine.pdb (Partial PDB)
